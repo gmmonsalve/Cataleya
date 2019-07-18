@@ -1,0 +1,104 @@
+body {
+margin:0;
+
+font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background: url(./imagenes/back.jpeg);
+    height: 100vh;
+    background-size: cover;        
+}
+
+header .contenedor {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+header ul{
+    display: flex;
+}
+
+p.logo {
+font-family: 'Rubik', sans-serif;
+font-size: 19px;
+font-weight: 500;
+}
+
+header ul li{
+list-style-type: none;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+.contenedor {
+margin: 0 auto;
+}
+
+.contenedor p{
+ margin-left: 15vh;
+}
+
+#contenedor-titulo{ 
+    background: transparent;
+    display: flex;
+    margin-right: 15vh;
+    margin-left: 15vh;
+    margin-top: 15vh;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.titulo a, #about-me a{
+    display: inline-block;
+    margin-top: 7vh;
+    color: white;
+    background: rgb(94, 33, 134);
+    padding: 14px 24px;
+}
+
+h2{
+
+    color: black;
+}
+h1{
+    color: black;
+}
+
+h3{
+    margin: 5  vh 5vh;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+
+}
+/* Primera sección*/
+
+#about-me .contenedor-aboutme{
+display:flex;
+justify-content: space-around;
+}
+
+#about-me .texto{
+    text-align: justify;
+    width: 42%;
+    margin-right: auto;
+    color: rgb(37, 37, 37);
+}
+#about-me .cat{
+margin-left: 5vh;
+height: 10px;
+}
+
+#about-me a{
+    margin-left: 40vh;
+    margin-top: 3vh;
+}
