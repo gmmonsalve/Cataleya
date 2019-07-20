@@ -74,7 +74,7 @@ h1{
 }
 
 h3{
-    margin: 5  vh 5vh;
+    margin-top: 10vh;
     font-size: 35px;
     text-align: center;
     font-weight: bold;
@@ -102,3 +102,24 @@ height: 10px;
     margin-left: 40vh;
     margin-top: 3vh;
 }
+
+h4 {
+    margin-left: 15vh;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenedor-tarj{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    width: 24%;
+}
+
+.tarjeta p{
+    margin-bottom: 20px;
+    height: 130px;
+}
+
